@@ -1,0 +1,70 @@
+@media (max-width: 550px) {
+  .right-info {
+    display: none;
+  }
+  .btn-signup{
+
+    padding-bottom: 2px;
+  }
+}
+
+.account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: row;
+  // justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  padding: 1rem 0;
+
+  label {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    // border-bottom: 1px solid black;
+  }
+
+  .input-container {
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin: 0;
+    margin-left: 8px;
+    width: 50%;
+
+    input {
+      padding: 4px 20px;
+      outline: none;
+      border: none;
+    }
+  }
+}
+.btn-signup{
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  width: 100%;
+  padding-left: 8rem;
+  padding-top: 2px;
+
+  .btn{
+    background: #B59D83;
+    outline: none;
+    text-transform: capitalize;
+  }
+}
+.info{
+  outline: none;
+  border: none;
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.3);
+  width: 100%;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  
+}

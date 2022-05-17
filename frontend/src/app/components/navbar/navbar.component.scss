@@ -1,0 +1,87 @@
+.form-inline
+{
+ column-gap: 2rem;
+}
+
+.btn{
+  border-radius: 50px;
+}
+
+#login{
+  color: black;
+  background:lightgray;
+  padding: .5rem 2rem;
+}
+
+#signup{
+  color: white;
+  background: black;
+  padding: .5rem 2rem;
+}
+
+.navbar {
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.3);
+}
+#cart{
+ position: relative;
+ background: red;
+ border-radius: 50%;
+ height: 15px;
+ width: 15px;
+display: flex;
+margin-top: -5px;
+margin-left: 10px;
+font-size:small;
+text-align: center;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.cart{
+  position: absolute;
+  margin-top: 3px;
+}
+
+#navs{
+  column-gap: 1rem;
+  padding: .15rem 7.5rem;
+}
+
+
+
+
+@media(max-width:550px){
+
+  #navs{
+
+    padding: .2rem 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+// .badge {
+//   padding-left: 9px;
+//   padding-right: 9px;
+//   -webkit-border-radius: 9px;
+//   -moz-border-radius: 9px;
+//   border-radius: 9px;
+// }
+
+// .label-warning[href],
+// .badge-warning[href] {
+//   background-color: #c67605;
+// }
+// #lblCartCount {
+//     font-size: 12px;
+//     background: #ff0000;
+//     color: #fff;
+//     padding: 0 5px;
+//     vertical-align: top;
+//     margin-left: -10px;
+// }
