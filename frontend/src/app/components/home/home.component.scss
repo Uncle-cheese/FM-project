@@ -22,7 +22,12 @@
   z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
   }
 }
-
+#img-left{
+  width: 350px; height: 350px
+}
+.left-text{
+  font-size: 100%;
+}
 
 
 .art_by{
@@ -47,3 +52,22 @@
    min-width: 100%;
   }
 }
+
+
+
+// .card-img-left{
+//  padding-top: 2rem;
+//  border-radius: 10px;
+//  box-shadow: 2px 2px 2px rgba($color: #000000, $alpha: .2);
+//  border: none;
+//  height: 100%;
+//  max-width: 100%;
+//  background-image: url('../../../assets/FM5.jpg');
+// }
+
+//  .image{
+//   background: red;
+//    max-height: 4rem;
+//    width: 50%;
+//  }
+

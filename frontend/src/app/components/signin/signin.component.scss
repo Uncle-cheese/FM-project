@@ -1,0 +1,59 @@
+// .vid-background{
+//   background-repeat: no-repeat;
+//   height: 100%;
+//   width: 100%;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   position: relative;
+
+//   &::after{
+//   content: "";
+//   position: absolute; /* Sit on top of the page content */
+//   width: 100%; /* Full width (cover the whole page) */
+//   height: 100% !important; /* Full height (cover the whole page) */
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+//   z-index: 1; /* Specify a stack order in case you're using a different order for other elements */
+//   }
+// }
+// @media(max-width:550px){
+//   .vid-background{
+//     display: none;
+//   }
+// }
+
+.form-wrapper {
+  display: flex;
+  flex-direction: row;
+  // justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  padding: 1rem 0;
+
+  label {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    text-transform: capitalize;
+    // border-bottom: 1px solid black;
+  }
+
+  .input-container {
+    border-bottom: 1px solid black;
+    padding: 0;
+    margin: 0;
+    margin-left: 8px;
+    width: 50%;
+
+    input {
+      padding: 4px 20px;
+      outline: none;
+      border: none;
+    }
+  }
+}

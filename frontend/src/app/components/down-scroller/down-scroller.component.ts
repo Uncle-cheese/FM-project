@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router ,NavigationEnd} from '@angular/router';
+
 
 @Component({
   selector: 'app-down-scroller',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DownScrollerComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+
   }
 
+  
 }
