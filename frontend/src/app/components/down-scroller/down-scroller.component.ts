@@ -14,6 +14,6 @@ export class DownScrollerComponent implements OnInit {
   ngOnInit(): void {
 
   }
-
   
+
 }
