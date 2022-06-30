@@ -16,6 +16,7 @@ import { CartComponent } from './components/cart/cart.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { SigninComponent } from './components/signin/signin.component';
 import { InfoComponent } from './components/info/info.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { InfoComponent } from './components/info/info.component';
     CartComponent,
     SignupComponent,
     SigninComponent,
-    InfoComponent
+    InfoComponent,
+    FooterComponent
   ],
   imports: [
     NgxScrollTopModule,
